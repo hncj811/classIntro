@@ -58,5 +58,7 @@ All required dependencies are defined in package.json and installed automaticall
 5. Execute: 'npm audit fix' (if necessary to resolve vulnerabilities)
 6. Execute: 'npm start' to deploy the React app 
 7. You may be redirected to the site in your browser, but if not simply navigate to: https://localhost:3000
-8. You may optionally containerize your React application via Docker, so that other may run your app without setting it up themselves: https://www.docker.com/blog/how-to-dockerize-react-app/
+8. You may optionally containerize your React application via Docker, so that other may run your app without setting it up themselves: https://www.docker.com/blog/how-to-dockerize-react-app/. For example, you can access this project via Docker by running:
+* docker pull pwilson2781/classintro, then
+* docker run -p 80:80 pwilson2781/classintro
 
