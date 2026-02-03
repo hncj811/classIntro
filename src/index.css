@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hello {
+  font-style: italic;
+  font-weight: bold;
+  color: #3366cc;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
